@@ -42,7 +42,7 @@ void Abb::Inserta(string num) {
 		}
 
 		if (aux != NULL) {
-			cout << "Repetido" << endl;
+			//cout << "Repetido" << endl;
 		}
 		else {
 			if (antes->getDato() > num)
@@ -188,7 +188,7 @@ void Abb::borrar(string str) { //Decir si es hoja o 1hijo o 2hijos
 	}
 }
 
-void Abb::buscar(string str)
+bool Abb::buscar(string str)
 {
 	NodoArbol* antes = root;
 	NodoArbol* aux = root;
@@ -203,10 +203,12 @@ void Abb::buscar(string str)
 		}
 	}
 	if (aux != NULL) {
-		cout << str << " Encontrado " << endl;
+		cout << str << " encontrado en lineas ";
+		return true;
 	}
 	else {
 		cout << str  << " NO encontrado" << endl;
+		return false;
 	}
 }
 

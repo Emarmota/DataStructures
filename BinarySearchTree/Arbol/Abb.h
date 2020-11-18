@@ -20,7 +20,7 @@ class Abb
 		void inorden(NodoArbol*);
 		void definir(string str);
 		void borrar(string str);
-		void buscar(string str);
+		bool buscar(string str);
 		int contarNodos(NodoArbol*, int cont);
 		int contarInternos(NodoArbol*, int cont);
 		int contarHojas(NodoArbol*, int cont);

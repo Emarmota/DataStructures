@@ -148,12 +148,24 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Abb.cpp" />
+    <ClCompile Include="AddExpr.cpp" />
     <ClCompile Include="Arbol.cpp" />
+    <ClCompile Include="ariex.cpp" />
+    <ClCompile Include="Expr.cpp" />
+    <ClCompile Include="IntExpr.cpp" />
+    <ClCompile Include="MultExpr.cpp" />
     <ClCompile Include="NodoArbol.cpp" />
+    <ClCompile Include="SubExpr.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Abb.h" />
+    <ClInclude Include="AddExpr.h" />
+    <ClInclude Include="ariex.h" />
+    <ClInclude Include="Expr.h" />
+    <ClInclude Include="IntExpr.h" />
+    <ClInclude Include="MultExpr.h" />
     <ClInclude Include="NodoArbol.h" />
+    <ClInclude Include="SubExpr.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

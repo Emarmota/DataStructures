@@ -1,5 +1,24 @@
-﻿  Abb.cpp
-  Arbol.cpp
-  NodoArbol.cpp
+﻿  AddExpr.cpp
+D:\5to semestre online\Data Structures\Act Certificacion\BinarySearchTree\Arbol\Expr.cpp(3,1): error C2011: 'Expr': nueva definición del tipo 'class'
+D:\5to semestre online\Data Structures\Act Certificacion\BinarySearchTree\Arbol\Expr.h(2): message : vea la declaración de 'Expr'
+D:\5to semestre online\Data Structures\Act Certificacion\BinarySearchTree\Arbol\AddExpr.cpp(8,16): error C2011: 'AddExpr': nueva definición del tipo 'class'
+D:\5to semestre online\Data Structures\Act Certificacion\BinarySearchTree\Arbol\AddExpr.h(2): message : vea la declaración de 'AddExpr'
+  Expr.cpp
+D:\5to semestre online\Data Structures\Act Certificacion\BinarySearchTree\Arbol\Expr.cpp(3,1): error C2011: 'Expr': nueva definición del tipo 'class'
+D:\5to semestre online\Data Structures\Act Certificacion\BinarySearchTree\Arbol\Expr.h(2): message : vea la declaración de 'Expr'
+  IntExpr.cpp
+D:\5to semestre online\Data Structures\Act Certificacion\BinarySearchTree\Arbol\Expr.cpp(3,1): error C2011: 'Expr': nueva definición del tipo 'class'
+D:\5to semestre online\Data Structures\Act Certificacion\BinarySearchTree\Arbol\Expr.h(2): message : vea la declaración de 'Expr'
+D:\5to semestre online\Data Structures\Act Certificacion\BinarySearchTree\Arbol\IntExpr.cpp(7,16): error C2011: 'IntExpr': nueva definición del tipo 'class'
+D:\5to semestre online\Data Structures\Act Certificacion\BinarySearchTree\Arbol\IntExpr.h(2): message : vea la declaración de 'IntExpr'
+  MultExpr.cpp
+D:\5to semestre online\Data Structures\Act Certificacion\BinarySearchTree\Arbol\Expr.cpp(3,1): error C2011: 'Expr': nueva definición del tipo 'class'
+D:\5to semestre online\Data Structures\Act Certificacion\BinarySearchTree\Arbol\Expr.h(2): message : vea la declaración de 'Expr'
+D:\5to semestre online\Data Structures\Act Certificacion\BinarySearchTree\Arbol\MultExpr.cpp(8,17): error C2011: 'MultExpr': nueva definición del tipo 'class'
+D:\5to semestre online\Data Structures\Act Certificacion\BinarySearchTree\Arbol\MultExpr.h(2): message : vea la declaración de 'MultExpr'
+  SubExpr.cpp
+D:\5to semestre online\Data Structures\Act Certificacion\BinarySearchTree\Arbol\Expr.cpp(3,1): error C2011: 'Expr': nueva definición del tipo 'class'
+D:\5to semestre online\Data Structures\Act Certificacion\BinarySearchTree\Arbol\Expr.h(2): message : vea la declaración de 'Expr'
+D:\5to semestre online\Data Structures\Act Certificacion\BinarySearchTree\Arbol\SubExpr.cpp(10,16): error C2011: 'SubExpr': nueva definición del tipo 'class'
+D:\5to semestre online\Data Structures\Act Certificacion\BinarySearchTree\Arbol\SubExpr.h(2): message : vea la declaración de 'SubExpr'
   Generando código...
-  Arbol.vcxproj -> D:\Users\yoman\source\repos\DataStructures\BinarySearchTree\Debug\Arbol.exe

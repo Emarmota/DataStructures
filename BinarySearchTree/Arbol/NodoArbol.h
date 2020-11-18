@@ -4,8 +4,8 @@ using namespace std;
 
 class NodoArbol
 {
-public: //Metodos públicos
-	NodoArbol(); //Constructor por omisión
+public: //Metodos pï¿½blicos
+	NodoArbol(); //Constructor por omisiï¿½n
 	NodoArbol(string);
 
 
