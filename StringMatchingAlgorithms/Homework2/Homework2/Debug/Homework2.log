@@ -1,14 +1,3 @@
 ﻿  Homework2.cpp
-D:\5to semestre online\Data Structures\Actividades Certificacion\DataStructure\StringMatchingAlgorithms\Homework2\Homework2\Homework2.cpp(21,2): error C3861: 'search_all2': no se encontró el identificador
-D:\5to semestre online\Data Structures\Actividades Certificacion\DataStructure\StringMatchingAlgorithms\Homework2\Homework2\Homework2.cpp(40,46): error C3867: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::cend': sintaxis no estándar; utilice '&' para crear un puntero al miembro
-D:\5to semestre online\Data Structures\Actividades Certificacion\DataStructure\StringMatchingAlgorithms\Homework2\Homework2\Homework2.cpp(40,46): error C2679: '!=' binario: no se encontró un operador que adopte un operando en la parte derecha de tipo 'overloaded-function' (o bien no existe una conversión aceptable)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xstring(1905,21): message : puede ser 'bool std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>::operator !=(const std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>> &) const'
-          with
-          [
-              _Elem=char
-          ]
-D:\5to semestre online\Data Structures\Actividades Certificacion\DataStructure\StringMatchingAlgorithms\Homework2\Homework2\Homework2.cpp(40,46): message : al hacer coincidir la lista de argumentos '(std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>, overloaded-function)'
-          with
-          [
-              _Elem=char
-          ]
+D:\5to semestre online\Data Structures\Act Certificacion\StringMatchingAlgorithms\Homework2\Homework2\Homework2.cpp(44,6): warning C4101: 'result': variable local sin referencia
+  Homework2.vcxproj -> D:\5to semestre online\Data Structures\Act Certificacion\StringMatchingAlgorithms\Homework2\Debug\Homework2.exe

@@ -76,10 +76,10 @@ int Abb::contarInternos(NodoArbol* aux, int cont) {
 int Abb::contarHojas(NodoArbol* aux, int cont) {
 	if (aux != NULL)
 	{
-		if (aux->getIzquierda() != NULL && aux->getDerecha() != NULL)
+		if (aux->getIzquierda() == NULL && aux->getDerecha() == NULL)
 			cont++;
-		cont = contarInternos(aux->getIzquierda(), cont);
-		cont = contarInternos(aux->getDerecha(), cont);
+		cont = contarHojas(aux->getIzquierda(), cont);
+		cont = contarHojas(aux->getDerecha(), cont);
 	}
 	return cont;
 }
@@ -91,10 +91,30 @@ void Abb::contarNodosIH(NodoArbol* aux, int& internos, int& hojas) {
 	hojas = contarHojas(aux, hojas);
 }
 
+vector<string> Abb::preorden(NodoArbol* aux, vector<string>& num)
+{
+	/*
+	 La raíz se recorre antes que los recorridos de los subárboles izquierdo y derecho
+	 Entrada: aux, es el nodo raíz por el que se inicia el recorrido
+	 Salida: Muestra los nodos en pantalla en ese orden
+	*/
+	if (aux != NULL) {
+		num.push_back(aux->getDato());
+		preorden(aux->getIzquierda(), num);
+		preorden(aux->getDerecha(), num);
+	}
+	return num;
+}
+
 void Abb::preorden(NodoArbol* aux)
 {
+	/*
+	 La raíz se recorre antes que los recorridos de los subárboles izquierdo y derecho
+	 Entrada: aux, es el nodo raíz por el que se inicia el recorrido
+	 Salida: Muestra los nodos en pantalla en ese orden
+	*/
 	if (aux != NULL) {
-		cout << aux->getDato() <<endl;
+		cout << aux->getDato() << endl;
 		preorden(aux->getIzquierda());
 		preorden(aux->getDerecha());
 	}
@@ -162,7 +182,7 @@ void Abb::borrar(string str) { //Decir si es hoja o 1hijo o 2hijos
 		}
 	}
 	if (aux != NULL) {
-		cout << "Dato encontrado" << endl;
+		//cout << "Dato encontrado" << endl;
 		if (aux->getDerecha() == NULL && aux->getIzquierda() == NULL) {
 			//cout << "Dato HOJA" << endl;
 			if (aux == root) {

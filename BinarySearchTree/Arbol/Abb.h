@@ -2,6 +2,7 @@
 
 #include "NodoArbol.h"
 #include <iostream>
+#include <vector> 
 
 using namespace std;
 
@@ -15,6 +16,7 @@ class Abb
 		NodoArbol* getRoot();
 		void setRoot(NodoArbol*);
 		void Inserta(string);
+		vector<string> preorden(NodoArbol*, vector<string>& num);
 		void preorden(NodoArbol*);
 		void posorden(NodoArbol*);
 		void inorden(NodoArbol*);
